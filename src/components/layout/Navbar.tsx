@@ -13,7 +13,8 @@ const Navbar = () => {
     <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center">
+          <div className="flex items-center gap-2">
+            <img src="/favicon.svg" className='h-8 w-8' alt="LegalTech" />
             <span className="text-2xl font-bold text-blue-600">LegalTech</span>
             {/* <span className="text-2xl font-bold text-gray-800">Solutions</span> */}
           </div>
